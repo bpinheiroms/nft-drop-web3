@@ -1,10 +1,13 @@
-import type { NextPage } from 'next'
-import { HomeTemplate } from '../templates/Home'
+import type { NextPage } from "next";
+import { DefaultLayout } from "../layout/Default";
+import { HomeTemplate } from "../templates/Home";
 
 const Home: NextPage = () => {
   return (
-    <HomeTemplate />
-  )
-}
+    <DefaultLayout>
+      <HomeTemplate />
+    </DefaultLayout>
+  );
+};
 
-export default Home
+export default Home;
