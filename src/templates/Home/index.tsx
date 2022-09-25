@@ -1,3 +1,10 @@
+import { Header } from "../../components/Header";
+import { Container } from "./style";
+
 export const HomeTemplate = () => {
-  return <div>Home</div>;
+  return (
+    <Container>
+      <Header />
+    </Container>
+  );
 };
