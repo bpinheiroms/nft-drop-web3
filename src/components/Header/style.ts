@@ -4,7 +4,7 @@ export const Container = twd.header<any>`
 p-8 z-50 flex flex-col items-center justify-between border-b border-pink-400/[0.15] pb-8 md:flex-row md:pb-10
 `;
 
-export const LogoTitle = twd.header<any>`
+export const LogoTitle = twd.div<any>`
 cursor-pointer font-poppins text-sm font-extralight uppercase tracking-wider text-purple-800/75 dark:text-purple-300/50 md:text-xl
 `;
 
